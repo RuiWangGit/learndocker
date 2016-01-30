@@ -5,8 +5,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	  "start": "node server.js"   
+    "start": "node server.js"
   },
   "author": "ruiwang",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^4.0.3"
+  }
 }
